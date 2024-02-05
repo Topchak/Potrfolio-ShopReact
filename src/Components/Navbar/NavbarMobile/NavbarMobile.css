@@ -1,0 +1,75 @@
+/* NavbarMobile.css */
+.navbar-mobile {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-mobile.open {
+  transform: translateX(0);
+}
+
+.navbar-mobile-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  height: 100%;
+}
+
+.navbar-mobile-item {
+  color: #fff;
+  font-size: 4rem;
+  margin: 15px;
+  text-align: center;
+}
+.navbar-mobile-item-login{
+  color: #d88686;
+  font-size: 5rem;
+}
+
+.burger-icon {
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  z-index: 1100;
+  font-size: 4.5rem;
+  color: #fff;
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+.burger-icon.open{
+  display: block;
+}
+
+
+@media (max-width: 992px) {
+  .navbar-mobile {
+    display: block;
+    transform: translateX(-100%);
+  }
+  .navbar-mobile-item {
+    color: #fff;
+    font-size: 3rem;
+    margin: 15px;
+  }
+}
+
+@media (max-width:767px){
+  .navbar-mobile-item{
+    font-size: 2.5rem;
+  }
+  .burger-icon {
+    font-size: 3.5rem;
+  }
+}

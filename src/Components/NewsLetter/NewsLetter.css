@@ -1,0 +1,120 @@
+.newsLetter {
+  padding: 4.25rem 0;
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+
+.newsLetter-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0 12%;
+  gap: 1.875rem;
+  margin-bottom: 9.375rem;
+}
+
+.newsLetter h2 {
+  font-size: 3.4375rem;
+  color: #454545;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.newsLetter p {
+  font-size: 1.25rem;
+  color: #454545;
+  margin-bottom: 2rem;
+}
+
+.newsLetter-input-wrapper {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  max-width: 750px;
+  height: 64px;
+  background: white;
+  border-radius: 80px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.newsLetter-input-wrapper input {
+  width: 70%;
+  margin-left: 30px;
+  border: none;
+  color: #616161;
+  font-size: 1rem;
+  outline: none;
+}
+
+.newsLetter-input-wrapper button {
+  position: absolute;
+  top:  0;
+  right: 0;
+  border-radius: 80px;
+  padding: 23px 64px ;
+  border: none;
+  color: #ffffff;
+  background: black;
+  font-size: 1rem;
+}
+.newsLetter-input-wrapper button:active{
+  background: #2f2d2d
+}
+
+@media (max-width:767px){
+  .newsLetter-input-wrapper {
+    width: 90%;
+    height: 58px;
+    border-radius: 80px;
+  }
+  
+  .newsLetter-input-wrapper input {
+    width: 85%;
+    margin-left: 30px;
+    font-size: 1.2rem;
+  }
+  
+  .newsLetter-input-wrapper button {
+    padding: 20px 55px ;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width:479px){
+  /* .newsLetter-input-wrapper {
+    height: 46px;
+  }
+  
+  .newsLetter-input-wrapper input {
+    width: 95%;
+  }
+  
+  .newsLetter-input-wrapper button {
+    padding: 15px 32px ;
+  } */
+  .newsLetter-input-wrapper {
+    /* margin: 0 auto;
+    display: flex;
+    align-items: center;
+    max-width: 750px;
+    height: 64px;
+    background: white;
+    border-radius: 80px;
+    border: 1px solid #ccc;
+    position: relative; */
+    display: flex;
+    flex-direction: column;
+  }
+  .newsLetter-input-wrapper input {
+    position: static;
+    width: 90%;
+    margin-top: 20px;
+
+  } 
+  .newsLetter-input-wrapper button {
+    position: static;
+    margin-top: 35px;
+    width: 100%;
+  } 
+}

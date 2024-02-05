@@ -1,0 +1,39 @@
+.descriptionBox{
+  text-align: left;
+  margin: 120px 170px;
+  
+}
+.DescriptionBox-navigator{
+  display: flex;
+margin-bottom: 1rem;
+}
+.DescriptionBox-nav-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 171px;
+  height: 70px;
+  border: 1px solid #d0d0d0;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.DescriptionBox-nav-box.fade:hover{
+  background: #ede8e8;
+  color: #555;
+}
+
+.DescriptionBox-nav-box.fade{
+  background: #fbfbfb;
+  color: #555;
+
+}
+.descriptionBox-description{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: 1px solid #d0d0d0;
+  padding: 30px;
+}

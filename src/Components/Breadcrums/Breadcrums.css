@@ -1,0 +1,26 @@
+.breadcrums{
+  cursor: pointer;
+  text-align: left;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #5e5e5e;
+  text-transform: capitalize;
+  margin: 3rem 170px ;
+}
+
+.breadcrums img{
+  width: 7px;
+  margin-right: 5px;
+}
+.breadcrums-link{
+  color: inherit;
+}
+.breadcrums-name{
+  color: #312f2f;
+  cursor: auto;
+}

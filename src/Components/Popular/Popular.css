@@ -1,0 +1,45 @@
+.popular {
+  padding: 5.25rem 0;
+}
+
+
+
+.popular h2 {
+  color: #171717;
+  font-size: 3.125rem;
+  font-weight: 600;
+
+}
+
+.popular hr {
+  margin: 20px auto 0 auto;
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background: #252525;
+
+}
+
+
+.popular-items {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width:992px) {
+  .popular-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+  }
+}
+
+@media (max-width:992px) {
+  .popular {
+    padding: 2.25rem 0;
+  }
+}

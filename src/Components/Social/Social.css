@@ -1,0 +1,13 @@
+.social-wrapper {
+  display: flex;
+  gap: 3.125rem;
+}
+
+.social-wrapper img {
+  display: block;
+  padding: 10px 10px 10px 10px;
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+  cursor: pointer;
+  width: 45px;
+}
